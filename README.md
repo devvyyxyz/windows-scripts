@@ -28,6 +28,30 @@ A collection of useful batch scripts for Windows to perform common system mainte
    - **Description**: Sets a timer for an automatic shutdown after a specified period.
    - **Usage**: Enter the desired time in seconds when prompted.
 
+7. **EnableFirewall.bat**
+   - **Description**: Enables Windows Firewall for all profiles, securing your system from unauthorized access.
+   - **Usage**: Run as administrator to apply settings for all profiles.
+
+8. **DisableFirewall.bat**
+   - **Description**: Disables Windows Firewall, which can be helpful for testing purposes or specific network configurations.
+   - **Usage**: Run as administrator for full effect.
+
+9. **ClearDNSCache.bat**
+   - **Description**: Clears the DNS cache to potentially resolve internet connectivity issues.
+   - **Usage**: Run the script when experiencing DNS-related connectivity problems.
+   - 
+10. **PingTest.bat**
+    - **Description**: Pings a specified website or IP address to check network connectivity.
+    - **Usage**: Run the script and enter the address you want to ping when prompted.
+
+11. **EnableHibernation.bat**
+    - **Description**: Enables hibernation mode on the system, allowing you to save power without fully shutting down.
+    - **Usage**: Run the script to enable hibernation functionality in Windows.
+
+12. **DisableHibernation.bat**
+    - **Description**: Disables hibernation mode, which can free up disk space if the feature is unused.
+    - **Usage**: Run the script to remove hibernation functionality and clear the hibernation file.
+
 ## Usage
 
 1. Clone or download this repository.
